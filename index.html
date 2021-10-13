@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeHaat</title>
+    <style> *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+   .img{
+       vertical-align: middle;
+   }
+   .smallcontainer{
+       display: flex;
+       
+       flex-direction: column;
+       margin-top: 3em;
+       
+   }
+   .row1,.row2,.row3{
+       text-align: center;
+       margin-bottom: 1.7em;
+   }
+   a{
+       text-decoration: none;
+       color: whitesmoke;
+
+   }
+   button{
+       background: orangered;
+       animation: button 4s ease-out infinite normal;
+       border-radius: 30%;
+       padding: 3px;
+   }
+   p{
+       color: seagreen;
+       margin-bottom: 1em;
+   }
+   @keyframes button{
+            0%{
+                transform: scale(0.9);
+            }
+            25%{
+                transform: scale(1.1);
+            }
+            60%{
+                transform: scale(0.9);
+            }
+            100%{
+                transform: scale(0.9);
+            }
+        }
+        button:hover{
+            background:blue;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="conatiner" style="max-width: 450px;">
+        <div class="banner">
+            <img src="WhatsApp Image 2021-10-12 at 09.27.59.jpeg" width="100%" height="383px">
+        </div>
+        <div class="smallcontainer">
+            <div class="row1">
+                <p><b> देहात फसल बीमा के प्रकार</b></p>
+                <button><a href="page1.html">Click here</a></button>
+                
+            </div>
+            <div class="row2">
+                <p> <b>बीमा पंजीकरण</b> </p>
+                
+                <button class="bton"><a href="page2.html">Click here</a></button>
+                
+                
+            </div>
+            <div class="row3">
+                <p> <b>देहात संचालकों का फायदा</b> 
+                </p>
+                <button><a href="page3.html">Click here</a></button>
+                
+
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
