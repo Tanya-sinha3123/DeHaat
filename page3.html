@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+   .img{
+       vertical-align: middle;
+   } 
+   .heading{
+       text-align: center;
+       color: seagreen;
+       margin-top: 0.6px;
+
+   }
+   .benifits{
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       margin-top: 2em;
+       margin-bottom: 1em;
+       color:orange;
+       
+   }
+   .col1,.col2,.col3{
+       
+       margin-bottom: 1.5em;
+   }
+   table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+            width: 100%;
+            text-align: center;
+    
+            
+            font-size: 13px;
+            font-style: italic;
+        }
+        th{ background-color: green;
+        color: white;
+    }
+        th,td{
+            border: 2px solid black;
+            padding:1px;
+            
+        }
+        td{
+            color: orangered;
+        }
+        .box{
+            margin-top: 2em;
+            margin-bottom: 1em;
+        }
+        .logo{
+            height: 35px;
+            width: 35px;
+            margin-bottom: 1em;
+            animation: logo 4s ease-out infinite normal;
+            
+            
+        }
+        
+        .info{
+            color: orangered;
+            text-align: center;
+            margin-top: 1em;
+            animation: info 4s ease-out infinite normal;
+            
+        }
+        .footer{
+            text-align: center;
+            margin-top: 1em;
+        }
+       
+        @keyframes info{
+            0%{
+                transform: scale(0.9);
+            }
+            25%{
+                transform: scale(1);
+            }
+            60%{
+                transform: scale(0.9);
+            }
+            100%{
+                transform: scale(0.9);
+            }
+        }
+        @keyframes logo{
+            0%{
+                transform: scale(0.9);
+            }
+            25%{
+                transform: scale(1.4);
+            }
+            60%{
+                transform: scale(0.9);
+            }
+            100%{
+                transform: scale(0.9);
+            }
+        }
+       
+        .button{
+           margin-top: 3em;
+           text-align: center;
+           margin-bottom: 2em;
+
+       }
+       a{
+           text-decoration: none;
+           color: whitesmoke;
+           background: seagreen;
+           padding: 10px;
+           box-shadow: black 2px 2px;}
+
+    </style>
+    
+</head>
+<body>
+    <section class="container" style="max-width: 450px;">
+        <div class="banner">
+            <img src="WhatsApp Image 2021-10-12 at 09.27.59.jpeg" width="100%" height="383px">
+        </div>
+
+        <div class="heading"><h1>देहात संचालक के लिए फायदे:</h1></div>
+        <div class="benifits">
+            <div class="col1">
+                <img class ="logo" src="2032093.png"><p>" बोनस कमाई का मौका "</p></div>
+            <div class="col2"><img  class ="logo"src="WhatsApp Image 2021-10-15 at 16.19.03.jpeg"><p>" नए ग्राहकों को जोड़ने का चांस "</p> </div>
+            <div class="col3"><img class ="logo" src="download (2).png"><p>" व्यापार बढ़ाने के अवसर "</p></div>
+            
+        </div>
+        <div class="box">
+            <table class="table table-bordered table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">पहली
+
+                        एक्टिवेशन पर</th>
+                    <th scope="col">बाद के प्रत्येक
+
+                        एक्टिवेशन पर</th>
+                    <th scope="col">100
+
+                        एक्टिवेशन</th>
+                    <th scope="col">200
+
+                        एक्टिवेशन</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">अंकुरण फसल बीमा
+
+                        (नि: शुल्क)</th>
+                    <td>&#8377 50</td>
+                    <td>&#8377 20</td>
+                    <td>&#8377 2030</td>
+                    <td>&#8377 4030</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">सम्पूर्ण फसल बीमा</th>
+                    <td>&#8377 200</td>
+                    <td>&#8377 50</td>
+                    <td>&#8377 5150 </td>
+                    <td>&#8377 10000</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+        </div>
+        <div class="info"><b>10 हजार  तक की बोनस कमाई का सुनहरा मौका!</b></div>
+        <div class="footer"><b>अधिक जानकारी के लिए अपने देहात प्रतिनिधि से संपर्क करें</b></div>
+        <div class="button">
+            <a href="index.html"> Back</a>
+        </div>
+    </section>
+</body>
+</html>
